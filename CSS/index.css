@@ -1,0 +1,119 @@
+html{
+    min-height: 100%;
+}
+
+body {
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar-brand {
+    font-family: 'Rampart One', cursive;
+}
+
+#Header {
+    background: #56407f;
+}
+
+
+.main {
+
+    background-image: url("lazoCorazon2.jpg");
+    background-size: 128%;
+    background-position: 100% 50%;
+    
+    border: 0.1rem solid #333047;
+    border-radius: 5%;
+    display: block;
+    position: relative;
+    margin: 1em;
+    padding: 2em;
+    animation: animate__rubberBand;
+    min-height: 100%;
+}
+
+#h1 {
+    -webkit-text-stroke: 0.2px #333047;
+    color: #2c3161;
+
+    font-family: 'Romanesco', cursive;
+    font-size: 300%;
+    text-shadow: 1px  0px 0px white,
+               0px  1px 0px white,
+              -1px  0px 0px white,
+               0px -1px 0px white;
+
+}
+
+
+.boton1 {
+    border-radius: 4px;
+    background-color: #2c3161;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: background-color 15ms linear,
+        box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    font-family: 'Rampart One', cursive;
+
+
+    width: 18%;
+    line-height: 220%;
+ 
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    position: relative;
+    left: -30%;  /*left: 20%;*/
+}
+
+.boton2 {
+    border-radius: 4px;
+    background-color: #2c3161;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: background-color 0.4s linear,
+        box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    
+        font-family: 'Rampart One', cursive;
+
+    width: 18%;
+    line-height: 220%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    z-index: 100;
+    position: absolute;
+    
+    left: 70%;
+}
+
+audio {
+    width: 20rem;
+    height: 3em;
+}
+
+.yape {
+    width: 50%;
+}
+
+#aboutFooter {
+    background:  #56407f;
+    ;
+}
+
+h2 {
+    font-family: 'Rampart One', cursive;
+}
+
+p {
+    font-family: 'Satisfy', cursive;
+}
+
+footer {
+    background: #ffffd5;
+}
