@@ -36,20 +36,20 @@ boton[0].addEventListener('click', function(){
   Swal.fire({
     background: '#f8efed',
     imageUrl: "https://i.gifer.com/4jxD.gif",
-    title: 'Señorita, está segura? :V',
-    text: "No vale quejarse! *.*",
+    title: 'Feliz Cumpleaños Sandrita :3',
+    text: "Gracias por ser mi amiwita! *.*",
     showCancelButton: true,
     confirmButtonColor: '#FF0000',
     cancelButtonColor: '#2c3161',
-    confirmButtonText: 'Sí, estoy segura! :3',
-    cancelButtonText: 'No! :P'
+    confirmButtonText: 'Abrazo! :3',
+    cancelButtonText: 'No soy tu amiwita! :P'
   }).then((result) => {
       if (result.isConfirmed) {
         Swal.fire({
           background: '#f8efed',
-          title: 'You are so golden :3',
+          title: 'Super abrazo virtual :3',
           confirmButtonColor: '#FF0000',
-          confirmButtonText: 'GOLDEN'
+          confirmButtonText: 'Bendiciones'
         })
       }
     })

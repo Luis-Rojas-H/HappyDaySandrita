@@ -20,9 +20,9 @@ body {
 
 .main {
 
-    background-image: url("FondoKimi1.jpg");
-    background-size: 128%;
-    background-position: 100% 50%;
+    background-image: url("FondoSandrita.jpg");
+    background-size: 100%;
+    background-position: 50% 40%;
     
     border: 0.1rem solid #333047;
     border-radius: 5%;
